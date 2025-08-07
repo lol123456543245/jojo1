@@ -7,7 +7,7 @@ end
 --//------------------------------------------------------------------------------------------\\--
 for i,v in pairs(Settings['Made By Antoniogiallo'].STANDS) do 
 if game:GetService("Players").LocalPlayer.Name == v then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/JOJOGIO/STAND-FRAMEWORK/main/1.0.9"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lol123456543245/jojo1/refs/heads/main/jojo2"))()
     STAND = game:GetService("Players"):FindFirstChild(tostring(v))
     OWNER = game:GetService("Players"):WaitForChild(Settings['Made By Antoniogiallo'].OWNER)
     rs = game:GetService("RunService") 
@@ -1002,4 +1002,5 @@ coroutine.wrap(function()
     end;
 end)()
 end
+
 end
